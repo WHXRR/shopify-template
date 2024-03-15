@@ -2029,7 +2029,7 @@ ul.sec4-list li p {
   margin-top: 15px;
 }
 .usr-name {
-  float: left;
+  /* float: left; */
   width: 100%;
   font-size: 18px;
   line-height: 18px;

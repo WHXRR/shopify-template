@@ -1,9 +1,19 @@
 <script setup>
-import TemplateContainer from "./components/TemplateContainer.vue";
 </script>
 
 <template>
-  <TemplateContainer></TemplateContainer>
+  <div class="main">
+    <router-view v-slot="{ Component }">
+      <keep-alive>
+        <component :is="Component" />
+      </keep-alive>
+    </router-view>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.main {
+  height: 100vh;
+  overflow: hidden;
+}
+</style>
