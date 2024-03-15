@@ -1,1 +1,0 @@
-import{_ as l,o as n,j as s,t as o,__tla as _}from"./index-3bf8f13e.js";let t,u=Promise.all([(()=>{try{return _}catch{}})()]).then(async()=>{const a={};function r(e,c){return n(),s("div",null,o(e.$route.query.id),1)}t=l(a,[["render",r]])});export{u as __tla,t as default};
