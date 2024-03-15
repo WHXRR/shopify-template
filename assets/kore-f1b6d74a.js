@@ -1,4 +1,4 @@
-import{k as g,r as f,n as v,o as r,c as o,u as n,e as p,j as m,a as b}from"./index-1b7e34d5.js";const d=g("template",{state:()=>({currentTemplate:"kore",currentTemplateOptions:[],currentTemplateHTML:"",timer:null}),actions:{}}),h=`<div class="kore">
+import{k as g,r as f,n as v,o as r,c as o,u as n,e as p,j as m,a as b}from"./index-1fe75c98.js";const d=g("template",{state:()=>({currentTemplate:"kore",currentTemplateOptions:[],currentTemplateHTML:"",timer:null}),actions:{}}),h=`<div class="kore">
 <div class="kore-body">
   <div class="topStrip">
     <div class="container">
